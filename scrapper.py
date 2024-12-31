@@ -6,7 +6,12 @@ from bs4 import BeautifulSoup
 #=> get data from web (html,json,xml)
 #python -m pip install beautifulsoup4
 #=>parse html
-URL="http://books.toscrape.com/"
+#git config --global user.name "Ashishverma66"
+#git config --global user.email "ashishvermadev66@gmail.com"
+#git status #file ma k k  change xa
+#git diff  #file vitra k k change cha
+#git add . #file track garcha
+#git commit -m "message" #k kam gareko xa
 
 def scrape_book(url):
     response=requests.get(url)
