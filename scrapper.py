@@ -13,6 +13,22 @@ from bs4 import BeautifulSoup
 #git add . #file track garcha
 #git commit -m "message" #k kam gareko xa
 
+#Todays work
+#install git
+#create repository in github
+#go to git bash
+#git config --global user.name "Ashishverma66"
+#git config --global user.email "ashishvermadev66@gmail.com"
+
+#git init
+#git status => if you want to check what are the status of files
+#git diff => if you want to check what are the changes
+#git add .
+#git commit -m "Your message"
+#copy past git code from github
+
+
+
 def scrape_book(url):
     response=requests.get(url)
     if response.status_code!=200:
