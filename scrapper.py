@@ -1,11 +1,11 @@
+import requests
+import sqlite3    
+from bs4 import BeautifulSoup
+
 #python -m pip install requests
 #=> get data from web (html,json,xml)
 #python -m pip install beautifulsoup4
 #=>parse html
-
-import requests    
-from bs4 import BeautifulSoup
-
 URL="http://books.toscrape.com/"
 
 def scrape_book(url):
@@ -30,7 +30,7 @@ def scrape_book(url):
     
 
 
-import sqlite3
+
 
 def create_connection():
      try:
